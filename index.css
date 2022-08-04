@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.nav-bar{
+    padding: 20px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(175,28,40);
+}
+
+.logo-wrapper{
+    width: 90px;
+
+}
+
+.logo-wrapper > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-name{
+    font-size: 15px;
+    color: white;
+}
+
+.profile-image{
+    height: 31px;
+    width: 30px;
+    background-color: white;
+    border-radius:20px ;
+    
+    
+    
+    
+
+}   
+
+.hotel-list-wrapper{
+    width: 74%;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+    
+}
+.hotel-card-image-wrapper > img{
+    width: 90%;
+    height: 90%;
+    
+}
+
+.hotel-name{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+ 
+.hotel-location-wrapper{
+    border-bottom: 1px solid gray;
+}
+
+.hotel-review{
+    float:right;
+    padding: 10px;
+}
+
+.hotel-category{
+    font-size: small;
+}
+.hotal-location-distance{
+    font-size: small;
+}
+.hotel-review{
+    font-size: small;
+    color: red;
+}
